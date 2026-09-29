@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FPL Achievements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>FPL Achievements</h1>
+    <p class="muted">Enter your Fantasy Premier League Team ID to see which achievements you've unlocked.</p>
+
+    <form id="lookup-form">
+      <input id="team-id" type="text" inputmode="numeric" placeholder="Team ID, e.g. 395947" aria-label="Team ID" autocomplete="off">
+      <button type="submit">Find my team</button>
+    </form>
+
+    <details class="help">
+      <summary>How do I find my Team ID?</summary>
+      <p>Log in to the FPL website and open the Points page. Look at the address bar: it looks like
+      <code>fantasy.premierleague.com/entry/1234567/event/5</code>. The number after <code>/entry/</code> is your Team ID.</p>
+    </details>
+
+    <div id="status" class="status"></div>
+    <section id="results"></section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

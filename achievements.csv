@@ -1,0 +1,18 @@
+id,name,description,scope,metric,operator,value,icon
+century,Centurion,Score 100+ points in a single gameweek,gw,points,>=,100,💯
+monster_week,Monster Week,Score 120+ points in a single gameweek,gw,points,>=,120,👹
+top_100k_week,Top 100k Week,Finish a gameweek inside the top 100000 managers,gw,gw_rank,<=,100000,📈
+top_10k_week,Top 10k Week,Finish a gameweek inside the top 10000 managers,gw,gw_rank,<=,10000,🚀
+top_1k_week,Top 1k Week,Finish a gameweek inside the top 1000 managers,gw,gw_rank,<=,1000,👑
+rank_rocket,Rank Rocket,Climb 500000+ places in overall rank in one gameweek,gw,rank_improvement,>=,500000,🛰️
+wasted_talent,Wasted Talent,Leave 20+ points on the bench in a gameweek,gw,points_on_bench,>=,20,🪑
+hit_happy,Hit Happy,Take 12+ points of transfer hits in one gameweek,gw,transfer_cost,>=,12,💸
+moneybags,Moneybags,Reach a team value of £105.0m or more,gw,team_value,>=,105,💰
+million_club,Million Club,Reach a top 1 million overall rank,season,best_overall_rank,<=,1000000,🎯
+top_100k,Top 100k,Reach a top 100000 overall rank,season,best_overall_rank,<=,100000,🏅
+top_10k,Elite,Reach a top 10000 overall rank,season,best_overall_rank,<=,10000,🏆
+chip_collector,Chip Collector,Use 3 or more chips in a season,season,chips_used,>=,3,🃏
+five_hundred,500 Club,Reach 500 total points,season,total_points,>=,500,⚽
+thousand,1000 Club,Reach 1000 total points,season,total_points,>=,1000,🔥
+ever_present,Ever Present,Play 38 gameweeks in a season,season,gameweeks_played,>=,38,📅
+veteran,Veteran,Have 5 or more previous FPL seasons,season,seasons_played,>=,5,🎖️
