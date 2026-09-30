@@ -16,3 +16,4 @@ five_hundred,500 Club,Reach 500 total points,season,total_points,>=,500,⚽
 thousand,1000 Club,Reach 1000 total points,season,total_points,>=,1000,🔥
 ever_present,Ever Present,Play 38 gameweeks in a season,season,gameweeks_played,>=,38,📅
 veteran,Veteran,Have 5 or more previous FPL seasons,season,seasons_played,>=,5,🎖️
+rainy_day_fund,Rainy Day Fund, Have 2 Million in your Bank, gw, bank, >=, 2000000, ☔
